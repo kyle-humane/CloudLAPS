@@ -125,7 +125,8 @@
       "sku": {
         "name": "[parameters('FunctionAppServicePlanSKU')]"
       },
-      "tags": "[parameters('Tags')]"
+      "tags": "[parameters('Tags')]",
+      "properties": {}
     },
     {
       "type": "Microsoft.Insights/components",
@@ -235,7 +236,8 @@
       "sku": {
         "name": "[parameters('PortalAppServicePlanSKU')]"
       },
-      "tags": "[parameters('Tags')]"
+      "tags": "[parameters('Tags')]",
+      "properties": {}
     },
     {
       "type": "Microsoft.Insights/components",
